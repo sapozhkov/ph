@@ -122,4 +122,14 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    /**
+     * Displays about page.
+     *
+     * @return string
+     */
+    public function actionTimeline()
+    {
+        return $this->render('timeline');
+    }
 }
